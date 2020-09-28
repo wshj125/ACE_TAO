@@ -1,5 +1,5 @@
 // -*- MPC -*-
-project : orbsvcsexe, utils, install, naming, trading_serv {
+project : orbsvcsexe, utils, install, naming, trading_serv, ami, messaging, amh {
   exename  = tao_costrading
 
   specific {

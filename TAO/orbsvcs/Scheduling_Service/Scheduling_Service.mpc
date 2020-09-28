@@ -1,4 +1,4 @@
 // -*- MPC -*-
-project : orbsvcsexe, install, rtsched, naming, svc_utils, iortable, portableserver, utils {
+project : orbsvcsexe, install, rtsched, naming, svc_utils, iortable, portableserver, utils, messaging {
   exename  = tao_cosscheduling
 }

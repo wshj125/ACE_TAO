@@ -9,7 +9,7 @@ project(CosLifeCycle_IDL) : orbsvcslib, orbsvcs_output, install, tao_versioning_
   }
 }
 
-project(CosLifeCycle) : orbsvcslib, orbsvcs_output, install, naming {
+project(CosLifeCycle) : orbsvcslib, orbsvcs_output, install, naming, messaging {
   sharedname   = TAO_CosLifeCycle
   dynamicflags += TAO_LIFECYCLE_BUILD_DLL
   tagchecks   += LifeCycle
@@ -45,7 +45,7 @@ project(CosLifeCycle) : orbsvcslib, orbsvcs_output, install, naming {
   }
 }
 
-project(CosLifeCycle_Skel) : orbsvcslib, orbsvcs_output, install, lifecycle, portableserver {
+project(CosLifeCycle_Skel) : orbsvcslib, orbsvcs_output, install, lifecycle, portableserver, messaging {
   sharedname   = TAO_CosLifeCycle_Skel
   dynamicflags += TAO_LIFECYCLE_SKEL_BUILD_DLL
   tagchecks   += LifeCycle

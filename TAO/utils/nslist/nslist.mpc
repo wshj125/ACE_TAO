@@ -1,5 +1,5 @@
 // -*- MPC -*-
-project(nsadd): namingexe, install {
+project(nsadd): namingexe, install, messaging {
   install = $(ACE_ROOT)/bin
   exename = tao_nsadd
   Source_Files {

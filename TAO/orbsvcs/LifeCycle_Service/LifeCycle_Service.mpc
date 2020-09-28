@@ -1,4 +1,4 @@
 // -*- MPC -*-
-project : orbsvcsexe, lifecycle_skel, naming, trading_serv, avoids_minimum_corba, utils, install {
+project : orbsvcsexe, lifecycle_skel, naming, trading_serv, avoids_minimum_corba, utils, install, messaging {
   exename  = tao_coslifecycle
 }

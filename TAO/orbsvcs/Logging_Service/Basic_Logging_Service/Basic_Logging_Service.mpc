@@ -1,4 +1,4 @@
-project: namingexe, iortable, install, dslogadmin_serv, valuetype {
+project: namingexe, iortable, install, dslogadmin_serv, valuetype, messaging {
   exename   = tao_tls_basic
 
   specific {
